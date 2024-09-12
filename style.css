@@ -1,0 +1,90 @@
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4; /* Light background for contrast */
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    margin-right: 10vh;
+}
+input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            outline: none;
+            transition: border-color 0.3s, box-shadow 0.3s;
+}
+input[type="text"]:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+        .btn {
+            background-color: #007bff; /* Primary blue color */
+            color: white; /* White text */
+            border: none; /* No borders */
+            padding: 10px 20px; /* Padding for the button */
+            font-size: 16px; /* Font size */
+            font-weight: bold; /* Bold font */
+            cursor: pointer; /* Pointer cursor on hover */
+            border-radius: 5px; /* Slightly rounded corners */
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        /* Hover effect */
+        .btn:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            transform: translateY(-2px); /* Slight lift effect on hover */
+        }
+
+        /* Active effect (when clicked) */
+        .btn:active {
+            background-color: #004085; /* Even darker blue when clicked */
+            transform: translateY(0); /* Return to original position */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slightly smaller shadow */
+        }
+
+        /* Disabled button styling */
+        .btn:disabled {
+            background-color: #cccccc; /* Gray background for disabled button */
+            cursor: not-allowed; /* No pointer on disabled button */
+            box-shadow: none; /* No shadow */
+        }
+        #ability {
+            padding: 20px;
+            background-color: #f0f0f0; /* Light gray background */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            max-width: 400px; /* Limit width of the container */
+            margin: 20px auto; /* Center the container */
+        }
+
+        /* Style for the paragraph inside the ability div */
+        #ability p {
+            font-size: 24px; /* Make text larger */
+            line-height: 1.5; /* Improve readability */
+            color: #333; /* Dark gray text color */
+            font-weight: bold; /* Make the text bold */
+        }
+
+        /* Specific styling for the span elements */
+        #ability span {
+            color: #007bff; /* Highlighted blue color for dynamic text */
+            font-size: 26px; /* Slightly larger font for the name and weight */
+        }
+        img {
+            width: 400px; /* Make the image larger */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 0px; /* Sharp corners (no rounding) */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+            border: 2px solid #333; /* Optional: Add a border */
+        }
